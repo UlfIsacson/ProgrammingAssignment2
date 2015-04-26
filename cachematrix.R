@@ -1,4 +1,5 @@
-## Create a special "matrix" object that can cache its inverse.
+## makeChacheMatrix function creates a special matrix 
+## object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
     
@@ -19,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Return matrix that is the inverse of 'x'
+## cacheSolve functionb returns a matrix that is the inverse of 'x'
 ## If its already been computed once, use cache
 ## to return value. Print out message when chached
 ## data is used
